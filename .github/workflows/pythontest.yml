@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Show Dir
-      run: ls -la "/home/runner/work/Python-Firebase-Sample/"
+      run: ls -la "/home/runner/work/Python-Firebase-Sample/Python-Firebase-Sample"
     
     - name: checkout repo content
       uses: actions/checkout@v2 # checkout the repository content
@@ -25,4 +25,4 @@ jobs:
       env:
         FIREBASE_CRED: ${{ secrets.FIREBASE_CRED }}
         DB_URL: ${{ secrets.DB_URL }}
-      run: python ../Create/firebasetest.py
+      run: python Create/firebasetest.py
