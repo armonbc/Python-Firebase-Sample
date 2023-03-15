@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Show Dir
-      run: ls -la "/home/runner/work/Python-Firebase-Sample/Python-Firebase-Sample/"
+      run: ls -la "/home/runner/work/Python-Firebase-Sample/"
 
     - name: Executing Python
       env:
