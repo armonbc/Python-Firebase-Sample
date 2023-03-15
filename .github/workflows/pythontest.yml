@@ -6,7 +6,10 @@ jobs:
   python_job:
     runs-on: ubuntu-latest
     steps:
-    - name: Example Step
+    - name: Show Dir
+      run: ls -la
+
+    - name: Executing Python
       env:
         FIREBASE_CRED: ${{ secrets.FIREBASE_CRED }}
         DB_URL: ${{ secrets.DB_URL }}
