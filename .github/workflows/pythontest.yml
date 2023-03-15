@@ -10,4 +10,4 @@ jobs:
       env:
         FIREBASE_CRED: ${{ secrets.FIREBASE_CRED }}
         DB_URL: ${{ secrets.DB_URL }}
-      run: python firebasetest.py
+      run: python /Write/firebasetest.py
