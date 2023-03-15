@@ -3,11 +3,11 @@ name: Write to Firebase
 on: [push]
 
 jobs:
-  example_job:
+  python_job:
     runs-on: ubuntu-latest
     steps:
     - name: Example Step
       env:
         FIREBASE_CRED: ${{ secrets.FIREBASE_CRED }}
         DB_URL: ${{ secrets.DB_URL }}
-      run: python Create/firebasetest.py
+      run: python ../Create/firebasetest.py
