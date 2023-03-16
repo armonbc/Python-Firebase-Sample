@@ -17,5 +17,5 @@ firebase_admin.initialize_app(cred, {
 ref = db.reference('/users')
 
 # Delete all data under the '/users' node
-ref.delete()
+snapshot = ref.delete()
 print(snapshot)
