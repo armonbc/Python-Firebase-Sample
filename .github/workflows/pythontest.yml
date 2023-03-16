@@ -6,7 +6,7 @@ jobs:
   python_job:
     runs-on: ubuntu-latest
     steps:
-    - name: Show Dir
+    - name: List current dir...
       run: ls -la "/home/runner/work/Python-Firebase-Sample/Python-Firebase-Sample"
     
     - name: checkout repo content
