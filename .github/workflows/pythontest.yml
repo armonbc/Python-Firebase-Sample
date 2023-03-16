@@ -1,4 +1,4 @@
-name: Write to Firebase
+name: Firebase Operations
 
 on: [push]
 
