@@ -21,7 +21,3 @@ ref.child('users').child('user1').set({
     'name': 'John',
     'age': 30
 })
-
-# Read data from the database
-snapshot = ref.child('users').get()
-print(snapshot)
